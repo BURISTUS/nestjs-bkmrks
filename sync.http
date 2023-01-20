@@ -1,0 +1,10 @@
+# POST http://localhost:3000/auth/signin
+# Content-Type: application/json
+# {
+#     "email": "test@test.com",
+#     "password": "test"
+# }
+
+GET http://localhost:3000/users/get-self
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoidGVzdEB0ZXN0LmNvbSIsImlhdCI6MTY3MzAwODI3OCwiZXhwIjoxNjczMDA5MTc4fQ.lCNK8QP3NW8V2Nr6SBsLXTgfv390kry_huTHv1hb_mc
