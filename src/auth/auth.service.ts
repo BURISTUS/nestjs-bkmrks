@@ -6,8 +6,6 @@ import { PrismaClientKnownRequestError } from '@prisma/client/runtime';
 import { JwtService } from '@nestjs/jwt';
 import { ConfigService } from '@nestjs/config';
 
-// Остановился на 1:47:09
-// 2.09.27
 
 @Injectable()
 export class AuthService {
